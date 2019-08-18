@@ -1,0 +1,54 @@
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {1}Einführung}{3}{section.1}
+\contentsline {section}{\numberline {2}Technologien}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}Blattwerkzeug}{3}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Passwort Hashing}{4}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Sessions}{6}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}JSON Web Token}{6}{subsection.2.4}
+\contentsline {subsubsection}{\numberline {2.4.1}Header}{7}{subsubsection.2.4.1}
+\contentsline {subsubsection}{\numberline {2.4.2}Payload}{7}{subsubsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.3}Signatur}{8}{subsubsection.2.4.3}
+\contentsline {subsubsection}{\numberline {2.4.4}Zusammengesetzes Token}{9}{subsubsection.2.4.4}
+\contentsline {subsection}{\numberline {2.5}Ruby on Rails}{9}{subsection.2.5}
+\contentsline {subsubsection}{\numberline {2.5.1}Routen}{9}{subsubsection.2.5.1}
+\contentsline {subsubsection}{\numberline {2.5.2}Controller}{10}{subsubsection.2.5.2}
+\contentsline {subsubsection}{\numberline {2.5.3}Model}{10}{subsubsection.2.5.3}
+\contentsline {subsubsection}{\numberline {2.5.4}View}{11}{subsubsection.2.5.4}
+\contentsline {subsubsection}{\numberline {2.5.5}Zusammenfassung}{11}{subsubsection.2.5.5}
+\contentsline {subsection}{\numberline {2.6}Angular}{11}{subsection.2.6}
+\contentsline {subsubsection}{\numberline {2.6.1}Component}{12}{subsubsection.2.6.1}
+\contentsline {subsubsection}{\numberline {2.6.2}Services}{12}{subsubsection.2.6.2}
+\contentsline {subsubsection}{\numberline {2.6.3}Module}{12}{subsubsection.2.6.3}
+\contentsline {subsection}{\numberline {2.7}oAuth2}{12}{subsection.2.7}
+\contentsline {section}{\numberline {3}Anforderungsanalyse}{13}{section.3}
+\contentsline {subsection}{\numberline {3.1}Derzeitiges Projekt}{14}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Client}{14}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}Server}{14}{subsubsection.3.1.2}
+\contentsline {subsection}{\numberline {3.2}Anforderungen}{14}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Unterschiedliche Anmeldemöglichkeiten}{14}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Anmeldung mittels \gls {oAuth2}}{14}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}Anmeldung mittels Passwortes}{15}{subsubsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.2.4}Authentifizierung nach Anmeldung}{15}{subsubsection.3.2.4}
+\contentsline {subsubsection}{\numberline {3.2.5}Sicherheit und Login}{15}{subsubsection.3.2.5}
+\contentsline {subsubsection}{\numberline {3.2.6}Rollen und Autorisierung}{16}{subsubsection.3.2.6}
+\contentsline {subsubsection}{\numberline {3.2.7}Bedienelemente und Routen}{16}{subsubsection.3.2.7}
+\contentsline {section}{\numberline {4}Implementierung}{17}{section.4}
+\contentsline {subsection}{\numberline {4.1}Server}{17}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}Devise}{17}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.2}Omniauth}{17}{subsubsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.3}Pundit}{18}{subsubsection.4.1.3}
+\contentsline {subsubsection}{\numberline {4.1.4}Rolify}{19}{subsubsection.4.1.4}
+\contentsline {subsubsection}{\numberline {4.1.5}Anmeldung eines Benutzers}{20}{subsubsection.4.1.5}
+\contentsline {subsubsection}{\numberline {4.1.6}Autorisierung}{27}{subsubsection.4.1.6}
+\contentsline {subsubsection}{\numberline {4.1.7}may\_perform}{30}{subsubsection.4.1.7}
+\contentsline {subsubsection}{\numberline {4.1.8}Sicherheit und Login}{31}{subsubsection.4.1.8}
+\contentsline {subsection}{\numberline {4.2}Client}{33}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Nebular}{33}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}Dialog zur Anmeldung/Registrierung}{33}{subsubsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.3}Speichern eines \gls {JWT}}{36}{subsubsection.4.2.3}
+\contentsline {subsubsection}{\numberline {4.2.4}Sicherheit und Login}{37}{subsubsection.4.2.4}
+\contentsline {subsubsection}{\numberline {4.2.5}Wrapper-Komponenten}{38}{subsubsection.4.2.5}
+\contentsline {subsubsection}{\numberline {4.2.6}Routing-Guards}{42}{subsubsection.4.2.6}
+\contentsline {section}{\numberline {5}Fazit}{44}{section.5}
+\contentsline {subsection}{\numberline {5.1}Erreichte Ziele}{44}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Ausblick}{44}{subsection.5.2}
