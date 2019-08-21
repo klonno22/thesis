@@ -1,5 +1,5 @@
 \section{Anforderungsanalyse}
-\label{sec: analyze}
+\label{sec:analyze}
 Das Ziel dieser Thesis ist, ein standardisiertes Registrierungsverfahren zu erstellen, zuzüglich einer Authentifikation über \gls{oAuth2} oder ein Passwort. Hinzu kommt eine Möglichkeit, den Nutzer über den Server zu autorisieren und ihm nach spezifischen Benutzerrollen unterschiedlichen Inhalt zu präsentieren. Dabei soll es dem Nutzer nicht gestattet sein, durch Manipulation seines Clients mit verfälschten Daten, Zugriff auf für ihn nicht zugreiffbare Daten zu erhalten. Um das Ziel dieser Thesis zu erreichen, muss man sich vorerst mit Ruby und dem Webframework Rails auseinandersetzen. Zudem ist es vonnöten, sich intensiver mit Angular zu beschäftigen, da dieses bisher nur oberflächlich behandelt wurde.
 
 \subsection{Derzeitiges Projekt}
@@ -37,6 +37,8 @@ Da es in Blattwerkzeug bei der Benutzernamensgebung zum jetzigen Stand keine ein
 
 \subsubsection{Rollen und Autorisierung}
 Die Rollen müssen sich in globale und Ressourcen spezifische Rollen unterteilen. Dabei sind Globale-Rollen wie in Sektion ~\ref{sec: rolify} beschrieben, keiner spezifischen Ressource zugewiesen. Zwei Beispiele globaler Rollen wären \enquote{user} und \enquote{admin} oder \enquote{guest}, \enquote{user} und \enquote{admin}. Ressourcen spezifische Rollen beziehen sich zum Beispiel auf ein Projekt. Bei der Erstellung eines Projektes muss ein Benutzer eine Rolle oder eine Datenbank-Beziehung zu dem jeweiligen Projekt erhalten. Mit dieser Rolle ist es dann dem Benutzer möglich, sein Projekt zu bearbeiten oder zu löschen. Zusätzlich muss die Möglichkeit gegeben sein, einem anderen Benutzer eine Rolle zuzuweisen mit der das Bearbeiten eines von ihm nicht erstellten Projektes ermöglicht wird. Administratoren mit der \enquote{admin} Rolle sollten jedoch Zugriff auf jedes Projekt haben.
+
+\todo{Anmeldung unterscheidet sich}
 
 \todo[inline]{Auflistung von nötigen Rollen und Rechten}
 

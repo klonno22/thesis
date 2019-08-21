@@ -6,3 +6,8 @@
 *.synctex.gz
 *.toc
 *.log
+*.acr
+*.alg
+*.blg
+*.glg
+*.gls
