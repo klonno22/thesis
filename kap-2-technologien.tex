@@ -68,7 +68,7 @@ Das \gls{HTTP} ist ein zustandsloses Protokoll, dass sich keine Informationen de
 
 Die Session ist eine serverseitige Daten-Speichermöglichkeit. Dabei wird bei der Anfrage von einem Client an den Server ohne Session-ID eine Session und Session-ID erstellt. Diese Session-ID wird bei der Antwort des Servers mit an den Client ausgeliefert. Ab diesem Punkt wird bei jeder Anfrage vom Client an den Server die Session-ID mit gesendet. Dies kann über einen Cookie oder über die \gls{URI} erfolgen. Aufgrund dessen kann der Server dem Client Daten aus der jeweiligen Session zur Verfügung stellen.
 
-Eine weitere Daten-Speichermöglichkeit ist der Cookie, der clientseitig gespeichert wird. 
+Eine weitere Möglichkeit Daten zwischenzeitig zu speichern sind Cookies. Cookies werden clientseitig gespeichert und häufig für das Aufbewahren der Session-ID verwendet. Desweiteren werden Cookies ebenfalls verwendet um Warenkörbe zu realisieren. Ein Problem hierbei ist die Vertrauenswürdigkeit eines Cookies, da dieser beliebig modifiziert werden kann.
 
 \subsection{JSON Web Token}
 \label{sec: jwt}
