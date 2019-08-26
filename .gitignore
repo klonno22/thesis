@@ -11,3 +11,5 @@
 *.blg
 *.glg
 *.gls
+*.bcf
+*.run.xml
